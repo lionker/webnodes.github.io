@@ -1,0 +1,158 @@
+理解名字---领悟一切
+
+11. IDE ===> Integrated Development Environment ===> 集成开发环境
+    IDE是用于提供程序开发环境的应用程序 (即vscode,dw,webstorm,Hbuild,sublime)
+		
+1. HTML ===>HyperText Markup Language===>超文本标记语言
+
+“超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。
+
+"标记"就是用某种符号做记号(即标签元素)
+
+2. XHTML(XML) ===> eXtensible HyperText Markup Language ===>可扩展超文本标记语言
+
+可扩展超文本标记语言（英语：eXtensibleHyperTextMarkupLanguage，XHTML），是一种标记语言，表现方式与超文本标记语言（HTML）类似，不过语法上更加严格。从继承关系上讲，HTML是一种基于标准通用标记语言（SGML）的应用，是一种非常灵活的置标语言，而XHTML则基于可扩展标记语言（XML），XML是SGML的一个子集。XHTML 1.0在2000年1月26日成为W3C的推荐标准。
+
+3. css ===>  Cascading Style Sheets ===>层叠样式表
+
+CSS 能够对网页中元素位置的排版进行像素级精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力。
+CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化
+
+4. javascript  ===>脚本语言(基于原型的面向对象) 
+
+JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。
+
+5. node ===> 
+
+Node.js 是一个让 JavaScript 运行在服务端的开发平台，它让 JavaScript 成为与PHP、Python、Perl、Ruby 等服务端语言平起平坐的脚本语言
+
+6. NPM ===> Node Package Manager ===> NodeJS包管理和分发工具
+
+7. mongoDB ===> 基于分布式文件存储的数据库
+
+8. Mongoose  ===> Mongoose Web Server ===> 易于使用的Web服务器，它可以嵌入到其它应用程序中，为其提供Web接口
+
+9. JSON ===> JavaScript Object Notation ===> js对象简谱
+
+	json是一种轻量级的数据交换格式
+9. JSONP ===> JSON with Padding
+	 是 json 的一种"使用模式"，可以让网页从别的域名（网站）那获取资料，即跨域读取数据(同源策略);
+	 
+10. Ajax ===>  	异步 JavaScript 和 XML（标准通用标记语言的子集） 
+
+	ajax是指一种创建交互式网页应用的网页开发技术
+	Ajax 是一种用于创建快速动态网页的技术
+	Ajax 是一种在无需重新加载整个网页的传统的网页（不使用 Ajax）如果需要更新内容，必须重载整个网页页面。情况下，能够更新部分网页的技术
+    通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。
+
+12. less ===>
+
+	less是动态层叠样式表语言(css)
+
+13. sass ===> SassScript 
+
+	sass是一个将脚本解析成CSS的脚本语言(也是一个动态css)
+
+14. scss ===> Sassy CSS	===> 时髦的css
+ 
+15. BOM ===> BrowserObjectModel  ===> 浏览器对象模型
+
+16. DOM ===> DocumentObjectModel ===> 文档对象模型
+
+17. stylus ===> 富有表现力的、动态的、健壮的CSS	
+
+18. GUI ===> Graphical User Interface  ===>图形用户界面
+
+19. SDK  ===>Software Development Kit ===>软件开发工具包
+
+	SDK一般都是	一些软件工程师为特定的软件包、软件框架、硬件平台、操作系统等建立应用软件时的开发工具的集合
+	
+20. IIFE===> Immediately Invoked Function Expression===>意为立即调用的函数表达式，
+		
+	IIFE是说，声明函数的同时,立即调用这个函数.
+
+21. NVM ====> nodejs version manager ===>  node版本管理工具
+	
+	NVM 可以自定义安装nodejs.
+
+22. debug ===> 排除故障，排除错误
+
+23. UI（用户界面）===> User Interface 
+	是广义概念，包含软硬件设计，囊括了GUI 、UE以及ID(交互设计)。
+
+24. GUI ===>Graphical User Interface（用户图形界面）
+	GUI就是界面美工，只管软件视觉界面，比UI窄。
+	目前国内大部分的UI设计师其实做的是GUI。大多出自美术院校。
+25. ID ===> interaction design（交互设计）
+	简单地讲是指人和电脑之间的互动过程，一般是软件工程师在做。
+
+26. UE/UX ===> User Experience(用户体验) 
+	关注的是用户的行为习惯和心理感受，就是琢磨人会怎么用软件或者硬件才觉得顺心就手的
+27. UID(User Interface Design)：用户界面设计，现在一般很少用到
+
+28. UED (User-Experience Design)：用户体验设计
+	用户体验是个人主观感受，但是共性的体验是可以经由良好的设计提升的。用户体验设计旨在提升用户使用产品的体验。
+
+互联网企业中，一般将视觉界面设计，交互设计和前端设计都归为用户体验设计。
+
+但实际上用户体验设计贯穿于整个产品设计流程，是必然涉及到的，只是重视与否。
+
+一名优秀的用户体验设计师，实际上需要对界面、交互和实现技术都有深入的理解
+29. UCD (User-Centered Design)：以用户为中心的设计	
+	UCD是一种设计模式，思维。强调在产品设计过程中，从用户角度出发来进行设计，用户优先
+30. BTU（Business, Technique, User） 三圈图
+	即一个好的产品，应该兼顾商业盈利，技术实现和用户需求。
+	
+31. OOP  ===>Object Oriented Programmings 面向对象编程
+
+	是一种计算机编程架构。OOP 的一条基本原则是计算机程序是由单个能够起到子程序作用的单元或对象组合而成。
+	
+32. JVM  ===> Java虚拟机
+	
+		JVM是一种用于计算设备的规范，它是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟各种计算机功能来实现的。
+33. MVC(框架)  ===> Model View Controller 模型视图控制器 
+
+	是模型(model)－视图(view)－控制器(controller)的缩写，一种软件设计典范，用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。MVC被独特的发展起来用于映射传统的输入、处理和输出功能在一个逻辑的图形化用户界面的结构中。
+34. ODBC(数据库接口) ===> Open Database Connectivity 开放数据库连接;
+
+35. JDBC(数据库接口) ===> Java Data Base Connectivity java数据库连接;
+
+36  DTD  文档类型定义 Document Type Definition 
+	文档类型定义(Document Type Definition)是一套为了进行程序间的数据交换而建立的关于标记符的语法规则。
+	
+36 SGML 标准通用标记语言 Standard Generalized Markup Language;
+
+37 MathML 数学标记语言  ====>math market language
+	   MathML 是数学标记语言，是一种基于XML（标准通用标记语言的子集）的标准，用来在互联网上书写数学符号和公式的置标语言。
+	   
+38 SVG  可缩放矢量图形 Scalable Vector Graphics
+			SVG 是使用 XML 来描述二维图形和绘图程序的语言
+			
+39 DHTML 动态 HTML ==> Dynamic HTML
+	DHTML 不是由万维网联盟（W3C）规定的标准。DHTML 是一个营销术语 - 被网景公司（Netscape）和微软公司用来描述 4.x 代浏览器应当支持的新技术。
+	通过 DHTML，Web 开发者可控制如何在浏览器窗口中显示和定位 HTML 元素。
+
+40 VMware 虚拟机	
+
+41 BLOB  二进制大对象，是一个可以存储二进制文件的容器。 binary large object
+	二进制大对象，是一个可以存储二进制文件的容器
+42 DNS 域名服务器 Domain Name Server
+	是进行域名(domain name)和与之相对应的IP地址 (IP address)转换的服务器
+	
+43 CWD 	自定义当前工作目录（Current working directory）的路径。
+
+44 CI Continuous integration
+
+45 wget  “World Wide Web” 与 “get” 的结合
+   wget 是一个从网络上自动下载文件的自由工具，支持通过 HTTP、HTTPS、FTP 三个最常见的 TCP/IP协议 下载，并可以使用 HTTP 代理
+46 WampServer Windows Apache Mysql PHP集成安装环境 
+	WampServer是一款由法国人开发的Apache Web服务器、PHP解释器以及MySQL数据库的整合软件包。免去了开发人员将时间花费在繁琐的配置环境过程，从而腾出更多精力去做开发。
+47 RSS 简易信息聚合 Really Simple Syndication
+	是一种RSS基于XML标准，在互联网上被广泛采用的内容包装和投递协议
+48 SHA-1 安全散列算法1	Secure Hash Algorithm 1
+	是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）。
+49 MD5 消息摘要算法 Message-Digest Algorithm	
+	一种被广泛使用的密码散列函数，可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。
+50 JSX 	Javascript和XML结合 
+	React发明了JSX，利用HTML语法来创建虚拟DOM。当遇到<，JSX就当HTML解析，遇到{就当JavaScript解析。
+	
