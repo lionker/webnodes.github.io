@@ -2,6 +2,12 @@
 
 计算器---->>window+r------>>>> Calc.exe
 
+写字板---->>window+r------>>>> write;
+
+画图板---->>window+r------>>>> mspaint;
+
+远程桌面连接---->>window+r------>>>> mstsc;
+
 
 方法一：使用Ctrl+Shift+Esc组合键调出任务管理器。
 
@@ -49,7 +55,7 @@ float比较重要放在前面
 30. mem.exe--------显示内存使用情况
 31. mmc------------打开控制台49.
 32. mobsync--------同步命令
-33.mplayer2-------简易widnows media player
+33. mplayer2-------简易widnows media player
 34. Msconfig.exe---系统配置实用程序
 35. mspaint--------画图板
 36. mstsc----------远程桌面连接

@@ -1,3 +1,7 @@
+更改npm 下载地址:     npm config set registry https://registry.npm.taobao.org
+更改全局缓存:         npm config set cache "D:\Program Files\Nodejs\node_global" (系统环境变量需要一致,不然找不到包命令)
+更改全局包保存地址:   npm config set prefix "D:\Program Files\Nodejs\node_cache" 
+
 1.命令行窗口(小黑屏)、CMD窗口、终端、shell
 	
 	- 开始菜单 --> 运行 --> CMD --> 回车
@@ -128,14 +132,14 @@ Node
 			- npx xxx   运行本地包,没有将直接安装,运行(但是不会修改package.json),安装后磁盘找不到,有可能存内存,关机后会清除;
 
 			- npm list -g --depth 0 查看全局安装过的包命令
-				npm list   显示安装过的包
+				npm list   显示当前安装过的包
 				-g        指全局安装过的包
 				--depth 0  限制输出模块层级
 			- npm list hexo-deployer-git   后直接跟插件名,查看是否有某插件 
 												
 		
 			-------------查找	
-			- npm root -g 打开根工具目录
+			- npm root -g 查看全局包所在的文件夹路径
 			- npm uninstall --global xxx  全局卸载 	 
 		
 		全局安装工具 rimraf 依赖 （npm  install rimraf -g）得到全局粉碎文件夹的命令
@@ -175,7 +179,8 @@ Node
 			npm version 查看所有模块的版本
 			npm init 初始化项目（创建package.json）
 			npm i/install 包名 安装指定的包
-			npm i/install 包名 --save 安装指定的包并添加依赖
+			npm i/install 包名 --save 安装指定的包并添加依赖 == npm i module_name  -S 
+			npm i/install 包名 --save-dev 本地工具依赖 == npm i module_name  -D
 			npm i/install 包名 -g 全局安装（一般都是一些工具）
 			npm i/install 安装当前项目所依赖的包
 			npm s/search 包名 搜索包	

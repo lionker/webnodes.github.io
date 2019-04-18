@@ -1,9 +1,9 @@
-###第一步安装hexo
+### 第一步安装hexo
 
 $ npm install -g hexo-cli   
 
 
-###第二步克隆hexo_github的库
+### 第二步克隆hexo_github的库
 
 $ hexo init hexo_text
 
@@ -57,20 +57,27 @@ repo : github仓库SSH值
 
 $hexo d($ hexo deploy)
 
+#### 错误处理
+```
 #### windows若报错,重新设置github配置文件
 
 $ git config --global credential.helper wincred
+
+### _config.yml重要配置
+
+	###修改_config配置文件,修改url路径,和root路径(修复线上的引用路径的错误,js无法加载,css无法加载,图片无法加载)
+	# URL
+	## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+	url: https://huang56.github.io/hexo_text/ (your_https)
+	root: /hexo_text (repo_name)
+
+```
+
 
 ### 迁移其他网站内容
 
 $ hexo migrate
 
-###修改_config配置文件,修改url路径,和root路径(修复线上的引用路径的错误,js无法加载,css无法加载,图片无法加载)
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://huang56.github.io/hexo_text/ (your_https)
-root: /hexo_text (repo_name)
 
 ###部署
 hexo clean：清除public，当 source文件夹中的部分资源更改过之后，特别是对文件进行了删除或者路径的改变之后，需要执行这个命令，然后重新编译。
@@ -97,3 +104,11 @@ $ cd themes/next
 $ git pull 
 $ hexo g # 生成 
 $ hexo s # 启动本地web服务器 
+
+
+
+# [hexo个性化配置](https://blog.csdn.net/kunkun5love/article/details/79130956)
+
+# [5分钟带你读懂Hexo源码设计模式](https://www.jianshu.com/p/ef88b5bbb914)
+
+# [bat批处理可定时提交hexo](https://www.jianshu.com/p/b19173aae49a)
