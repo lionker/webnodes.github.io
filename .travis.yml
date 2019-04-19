@@ -5,6 +5,16 @@ node_js: 6  #設置相應的版本
 script: true
 
 after_script:
-  - git config user.name "gattia"
-  - git config user.email "gattia.su@gmail.com"
+  - cd web代理
+  - git init
+  - git config user.name "lionker"
+  - git config user.email "aaronhuangsnail@gmail.com"
   - git add .
+  - git commit -m "Update tools"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
+# E: Build LifeCycle
+
+#指定分支，只有指定的分支提交时才会运行脚本
+branches:
+  only:
+    - master
