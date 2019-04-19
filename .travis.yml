@@ -16,11 +16,8 @@ install:
 
 before_script:
   - echo 清空缓存静态文件
-  - hexo clean  # 清除
   - echo 生成静态文件...
-  - hexo g  # 生成
-  - cd ./public
-  - ls -l
+
 
 script:
   - echo 开始部署...
@@ -49,6 +46,4 @@ branches:
     - master #只監測master分支，master是我的博客源碼分支的名稱，可根據自己情況設置
 env:
   global:
-    - GH_REF: github.com/lionker/web-notes.git #設置GH_REF，注意更改yourname
-    - GH_username: lionker
-    - GH_useremail: aaronhuangsnail@gmail.com
+    
