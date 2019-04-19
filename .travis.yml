@@ -1,6 +1,6 @@
 language: node_js  
 
-node_js: 6  #設置相應的版本
+node_js: 6  
 
 script: true
 
