@@ -5,7 +5,7 @@ node_js: 6  #設置相應的版本
 script: true
 
 after_script:
-  - cd ./web代理
+  - cd ./web代理/_book
   - git init
   - git config user.name "lionker"
   - git config user.email "aaronhuangsnail@gmail.com"
