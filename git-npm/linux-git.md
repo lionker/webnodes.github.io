@@ -119,7 +119,7 @@
 	git merge <name> 合并某分支到当前分支
 	git branch -a  查看所有分支,包括远程
 	git fetch origin dev:dev 创建跟踪分支(主分支clone时自动跟踪)
-	git brach -vv 查看跟踪分支
+	git branch -vv 查看跟踪分支
 	git branch -r  查看远程版本库分支列表
 	git branch -m oldName newName 给分支重命名
 	git push origin --delete brh 删除远程分支
@@ -133,8 +133,9 @@
 	git push origin --delete tagLearn 删除远程分支标签
 ### git 指针(回退版本)
 	git reset --hard eb9b70c  回退到指定版本,改变内容  
-  git reset --soft HEAD~	分支和指针回到上一次提交(只回退指针,不改变内容)  但不重置已提交的
+    git reset --soft HEAD~	分支和指针回到上一次提交(只回退指针,不改变内容)  但不重置已提交的
 ### git 远程
+	git branch --set-upstream-to=origin/<branch>  当前分支跟踪origin主机的某分支
 	git push -f origin 强行推送更新远程库
 	git pull origin master --allow-unrelated-histories 强行拉取合并
 	git remote add origin https/ssh 建立远程库连接
